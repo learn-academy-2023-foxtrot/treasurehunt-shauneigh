@@ -17,7 +17,8 @@ const App = () => {
 
   const handleClick = (selectedIndex) => {
     // return something
-    alert(selectedIndex)
+   board[selectedIndex]="🌴"
+   setBoard([...board])
   }
 
   return (
